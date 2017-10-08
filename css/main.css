@@ -1,0 +1,52 @@
+#navul {
+	margin-right: 20px;
+}
+
+@media only screen and (min-width: 993px) {
+	#slide-out {
+		top: 65px;
+	}
+
+	main, footer {
+		margin-left: 300px;
+	}
+}
+
+main {
+	margin-bottom: 20px;
+}
+
+.dictionary-space {
+	margin-top: 10px;
+	border: 1px solid #a1a1a1;
+	padding: 10px;
+}
+
+#searchbtn {
+	height: 50px;
+	width: 50px;
+}
+
+#searchbtn i {
+	font-size: 28px;
+	margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	#searchbtn {
+		height: 40px;
+		width: 30px;
+	}
+
+	#searchbtn i {
+		font-size: 20px;
+		margin-right: 10px;
+	}
+}
+
+
+.main-space {
+	min-height: 300px;
+	border: 1px solid #a1a1a1;
+}
+
